@@ -1,0 +1,31 @@
+
+<h1>fn workshop automation</h1>
+
+<ul>
+	<li>By a single click, batch create workshop instances in minutes</li>
+	<li>Workshop required libs are pre-installed. e.g. docker/fn
+		server</li>
+	<li>End-to-end workshop script is pre-installed, just issue
+		./demo.sh</li>
+</ul>
+
+<h3>Steps</h3>
+<ol>
+
+	<li><a href="http://localhost:8081/create?prefix=workshop&count=0"
+		target="_blank">create instance</a></li>
+	<li><a href="http://localhost:8081/list?status=Provisioning"
+		target="_blank">list provisioning instance</a></li>
+	<li><a href="http://localhost:8081/list?status=Running"
+		target="_blank">list running instance</a></li>
+	<li><a href="http://localhost:8081/privatekey.txt" target="_blank">connect
+			to instance</a></li>
+	<li><a href="javascript:;" target="_blank">run the demo</a> <pre>
+		sudo -i
+		./start.sh
+		./demo.sh
+		./stop.sh</pre></li>
+	<li><a href="http://localhost:8081/delete?prefix=" target="_blank">delete
+			instance</a></li>
+
+</ol>
